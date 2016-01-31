@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(assets/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(assets/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(assets/OpenSans-Bold.ttf);
+}
+
+html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #303030;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Open Sans Light";
+}
+
+#container {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+}
+
+#container .title {
+    color: #DADADA;
+    padding-left: 20px;
+    padding-left: 20px;
+    display: block;
+    box-sizing: border-box;
+    background: #383838;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#day {
+    color:#32b53f;
+}
+
+#container .start  {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    display: block;
+    width: 100%;
+}
+
+#container .start .control {
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    font-size: 18px;
+    padding:0px;
+    border: 0px solid blue;
+    height: 50px;
+    color: #DADADA;
+    font-size:18px;
+    width: 50%;
+    cursor: pointer;
+    display: inline-block;
+    transition-duration: 0.4s;
+    font-family: "Open Sans Light";
+}
+
+.c2 {
+    background: #525252;
+}
+
+.c1 {
+    background: #383838;
+}
+
+.stop {
+    background: #F44336;
+}
+
+#container .start .control:hover {
+    background: #32b53f;
+}
+
+.form-group {
+    padding: 28px 20px 0 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    color: #DADADA;
+}
+
+input {
+    color: #A5A5A5;
+    background: #383838;
+    font-family: "Open Sans Light";
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px #383838;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+input:focus {
+    outline:none;
+    color: #DADADA;
+    box-shadow: inset 350px 0px 0px #3E3E3E;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>wiwdomcld</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="title">
+        What was I doing on <span id="day"></span> ?
+      </div>
+      <div class="form">
+        <div class="form-group">
+          <label for="interval">Interval (minutes) :</label>
+          <input type="text" id="interval" value="30"/>
+        </div>
+        <div class="form-group">
+          <label for="path">Output path (Absolute) :</label>
+          <input type="text" id="path" value="default"/>
+        </div>
+      </div>
+      <div class="start">
+        <button class="control c1">Save</button><!--
+        --><button class="control c2">Start</button>
+      </div>
+    </div>
+    <!-->In Electron, this is the correct way to include jQuery<-->
+    <script>window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.js');</script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

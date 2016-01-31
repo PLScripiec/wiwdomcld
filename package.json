@@ -1,0 +1,26 @@
+{
+  "name": "wiwdomcld",
+  "version": "1.0.0",
+  "description": "We always want to remember what we were doing last time on the computer.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikommu/wiwdomcld.git"
+  },
+  "keywords": [
+    "Screenshot",
+    "Automatic"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/ikommu/wiwdomcld/issues"
+  },
+  "homepage": "https://github.com/ikommu/wiwdomcld#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
